@@ -1,0 +1,88 @@
+body {
+  height: 2000px;
+  width: auto;
+}
+
+header {
+  background-color: rebeccapurple;
+  font-size: 25px;
+  padding: 25px;
+}
+
+.headnav {
+  display: flex;
+ align-items: center;
+
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+ul li {
+  display: inline-block;
+  padding: 25px;
+}
+
+.heropic {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.trio {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+  margin: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+
+}
+
+.scroll {
+  width: 480px;
+  height: 350px;
+  overflow: scroll;
+  padding-left: 25px;
+}
+
+
+.myButton {
+
+ margin-left: 40%;
+  
+
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  line-height: 25px;
+  padding: 8px;
+  border-radius: 0px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+
+}
+
+.myButton:hover {
+  background: #1C6EA4;
+}
+
+.myButton:active {
+  background: #144E75;
+}
+
+footer {
+  background-color: rebeccapurple;
+  height: 100px;
+  margin: 25px;
+  width: 100%;
+}
